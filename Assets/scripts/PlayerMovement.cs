@@ -1,4 +1,4 @@
-// Some stupid rigidbody based movement by Dani
+
 
 using System;
 using UnityEngine;
@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour {
     
     //Other
     private Rigidbody rb;
+
+    public float wallrunSpeed;
 
     //Rotation and look
     private float xRotation;
@@ -266,5 +268,22 @@ public class PlayerMovement : MonoBehaviour {
     private void StopGrounded() {
         grounded = false;
     }
+
+    public MovementState state;
+
+    public enum MovementState
+    {
+        wallrunning
+    }
     
+    public bool wallrunning;
+    private float desiredMoveSpeed;
+    private void StateHandler()
+    {
+        if (wallrunning)
+        {
+            state = MovementState.wallrunning;
+            desiredMoveSpeed = wallrunSpeed;
+        }
+    }
 }
