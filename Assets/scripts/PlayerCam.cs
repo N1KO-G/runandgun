@@ -8,7 +8,7 @@ public class PlayerCam : MonoBehaviour
     
 
     public Transform orientation;
-     Transform camHolder;
+    public Transform camHolder;
 
     float xRotation;
     float yRotation;
