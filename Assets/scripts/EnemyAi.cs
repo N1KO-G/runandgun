@@ -27,6 +27,8 @@ public class EnemyAi : MonoBehaviour
     bool alreadyAttacked;
     public GameObject projectile;
 
+    public Transform attackPoint;
+
     //States
     public float sightRange, attackRange;
     public bool playerInSightRange, PlayerInAttackRange;
@@ -84,9 +86,9 @@ public class EnemyAi : MonoBehaviour
 
         if (!alreadyAttacked)
         {
-            Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 0f, ForceMode.Impulse);
+            GameObject currentBullet = Instantiate(projectile, attackPoint.position, Quaternion.identity);
+            currentBullet.GetComponent<Rigidbody>().AddForce(transform.forward * 32f, ForceMode.Impulse);
+            currentBullet.GetComponent<Rigidbody>().AddForce(transform.up * 0f, ForceMode.Impulse);
 
 
             alreadyAttacked = true;
@@ -99,9 +101,9 @@ public class EnemyAi : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int explosionDamage)
     {
-        health -= damage;
+        health -= explosionDamage;
 
         if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
     }

@@ -12,7 +12,7 @@ public class CustomBullet : MonoBehaviour
    public float bounciness;
    public bool useGravity;
 
-   public int explosionDamage;
+   public int Damage;
    public float explosionRange;
 
    public int maxCollisions;
@@ -40,9 +40,10 @@ public class CustomBullet : MonoBehaviour
         if(explosion != null) Instantiate(explosion, transform.position, Quaternion.identity);
 
         Collider[] enemies = Physics.OverlapSphere(transform.position, explosionRange, whatIsEnemies);
-        for(int i = 0; i < enemies.Length; i++);
+        
+        foreach(Collider Enemy in enemies)
         {
-               
+               Enemy.GetComponent<EnemyAi>().TakeDamage(Damage);
         }
 
      Invoke("Delay", 0.05f);
@@ -60,6 +61,10 @@ public class CustomBullet : MonoBehaviour
         collisions++;
 
         if(collision.collider.CompareTag("Enemy") && explodeOnTouch) Explode();
+
+        Debug.Log(collision);
+
+
    }
 
    private void Setup()

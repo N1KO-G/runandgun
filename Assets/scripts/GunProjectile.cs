@@ -126,4 +126,6 @@ public class GunProjectile : MonoBehaviour
         reloading = false;
     }
 
+    
+
 }

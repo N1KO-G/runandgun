@@ -158,7 +158,7 @@ MonoBehaviour:
   useGravity: 1
   explosionDamage: 40
   explosionRange: 3
-  maxCollisions: 10
+  maxCollisions: 2
   maxLifetime: 4
   explodeOnTouch: 1
 --- !u!96 &8744322706078450850
