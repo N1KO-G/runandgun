@@ -42,7 +42,7 @@ public class CustomBullet : MonoBehaviour
         Collider[] enemies = Physics.OverlapSphere(transform.position, explosionRange, whatIsEnemies);
         for(int i = 0; i < enemies.Length; i++);
         {
-
+               
         }
 
      Invoke("Delay", 0.05f);

@@ -15,7 +15,7 @@ C:/Users/539155/runandgun
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58234
+57729
 -job-worker-count
 3
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/539155/runandgun
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9716] Host "[IP] 172.27.172.51 [Port] 0 [Flags] 2 [Guid] 664430807 [EditorId] 664430807 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21227) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [9716] Host "[IP] 172.27.172.51 [Port] 0 [Flags] 2 [Guid] 664430807 [EditorId] 664430807 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21227) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11772] Host "[IP] 172.27.172.51 [Port] 0 [Flags] 2 [Guid] 302123125 [EditorId] 302123125 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21227) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11772] Host "[IP] 172.27.172.51 [Port] 0 [Flags] 2 [Guid] 302123125 [EditorId] 302123125 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21227) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 114.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.5f1 (381b4941466e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -94,42 +94,42 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007772 seconds.
-- Loaded All Assemblies, in 11.535 seconds
+Registered in 0.006631 seconds.
+- Loaded All Assemblies, in  0.626 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.526 seconds
-Domain Reload Profiling: 12057ms
-	BeginReloadAssembly (9657ms)
+- Finished resetting the current domain, in  0.518 seconds
+Domain Reload Profiling: 1140ms
+	BeginReloadAssembly (238ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (655ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (1114ms)
-		LoadAssemblies (9653ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (229ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1110ms)
-			TypeCache.Refresh (1108ms)
-				TypeCache.ScanAssembly (795ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (209ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (527ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (519ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (456ms)
+		SetupLoadedEditorAssemblies (438ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (7ms)
 			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -152,1536 +152,193 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in 10.273 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.238 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.969 seconds
-Domain Reload Profiling: 11237ms
-	BeginReloadAssembly (563ms)
+- Finished resetting the current domain, in  0.944 seconds
+Domain Reload Profiling: 2174ms
+	BeginReloadAssembly (510ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (9561ms)
-		LoadAssemblies (8613ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1117ms)
-			TypeCache.Refresh (1078ms)
-				TypeCache.ScanAssembly (1006ms)
-			BuildScriptInfoCaches (30ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (970ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (654ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (538ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3148 unused Assets / (1.0 MB). Loaded Objects now: 3711.
-Memory consumption went from 115.8 MB to 114.8 MB.
-Total: 7.648100 ms (FindLiveObjects: 0.469300 ms CreateObjectMapping: 0.412600 ms MarkObjects: 5.228900 ms  DeleteObjects: 1.535200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 857872.928287 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_up.png
-  artifactKey: Guid(11eaa9f4f73aeb248921dd15ce537f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_up.png using Guid(11eaa9f4f73aeb248921dd15ce537f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea7a8ae4ecfd34e4f3dcef8b0905ae3a') in 0.1197553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap.cubemap
-  artifactKey: Guid(995258c42c653784bbcdeda61e24002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap.cubemap using Guid(995258c42c653784bbcdeda61e24002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f02cb62533a6d0ade49dd51249b3a904') in 0.3606353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat
-  artifactKey: Guid(a3a02bda0a9032049ad25627480b5d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat using Guid(a3a02bda0a9032049ad25627480b5d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '105adb21fd58a0b4411fe7dab0e32d75') in 0.2414378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_down.png
-  artifactKey: Guid(3ddd9947dcae7c14cb42a3df8d1a5dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_down.png using Guid(3ddd9947dcae7c14cb42a3df8d1a5dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '089663229800c5b2cdc05822d498147d') in 0.0229012 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_down.png
-  artifactKey: Guid(c0718f3f75575524d86b09eb3052e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_down.png using Guid(c0718f3f75575524d86b09eb3052e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'defad557600302a51b700531edb0aa6c') in 0.0238719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_back.png
-  artifactKey: Guid(ceb380b2cee94b64ca5f68c23e9cc957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_back.png using Guid(ceb380b2cee94b64ca5f68c23e9cc957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1b447009bb926ce7b35dfbd39bb4a51') in 0.0251148 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_back.png
-  artifactKey: Guid(d99d23b7d55d3d643b3723f62b0c3b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_back.png using Guid(d99d23b7d55d3d643b3723f62b0c3b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e96ce2cd0cb9317c1f3dd2e5ce157951') in 0.0236187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_down.png
-  artifactKey: Guid(99f1ee3fa7b9cbd4c93ad9cf81a902cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_down.png using Guid(99f1ee3fa7b9cbd4c93ad9cf81a902cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3851555620664e9a9c2a5be51823d390') in 0.022425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_back.png
-  artifactKey: Guid(6dc4d65bb368d574d9270d589e1fbcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_back.png using Guid(6dc4d65bb368d574d9270d589e1fbcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a49adcdc8bd293d2c7522e87a5cf8087') in 0.0230892 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap.cubemap
-  artifactKey: Guid(6af7725426e611242b59b886806f5cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap.cubemap using Guid(6af7725426e611242b59b886806f5cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f808ecd8bc38517d1e934d858376de6') in 0.2998359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_right.png
-  artifactKey: Guid(66d7c927b0f788d4fb3a1c12b15fdcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_right.png using Guid(66d7c927b0f788d4fb3a1c12b15fdcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54b4cb171ba02ea4d4e55d4f061f5ac3') in 0.029984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_down.png
-  artifactKey: Guid(53400c1bbe9952c4e8874222bea3d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_down.png using Guid(53400c1bbe9952c4e8874222bea3d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03be70654843375f3fbb5378fac55b70') in 0.0111754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_up.png
-  artifactKey: Guid(f51f90147d7350747957e1c406e8d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_up.png using Guid(f51f90147d7350747957e1c406e8d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '962d4bb47e67042fc6c57638f3436a2b') in 0.0245083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_up.png
-  artifactKey: Guid(d2256633dec885f48a58aff279ec6fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_up.png using Guid(d2256633dec885f48a58aff279ec6fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15854a8ee4fb0ebb4b12c729129997c0') in 0.0248606 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunrise_Cubemap.mat
-  artifactKey: Guid(eb8fd6bd252589744b602770b09ccbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunrise_Cubemap.mat using Guid(eb8fd6bd252589744b602770b09ccbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49c0eac3ae25a8dcb1ff9feccc86fc66') in 0.0277822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_left.png
-  artifactKey: Guid(c4dcc1981668b5c4992edee31e9bcc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_left.png using Guid(c4dcc1981668b5c4992edee31e9bcc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b9562fbefc4dc1f6409cd15e2087056') in 0.023416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_front.png
-  artifactKey: Guid(b7e7a8d676da05c47a63ff0e9dccd511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_front.png using Guid(b7e7a8d676da05c47a63ff0e9dccd511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cff7586fee92cb6f18490b6ffa29248') in 0.0256609 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_up.png
-  artifactKey: Guid(e51a6ed6a5279d943a83bc460f75babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_up.png using Guid(e51a6ed6a5279d943a83bc460f75babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e283e9778e8629fe0d234dcf51cb1b66') in 0.0218167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_back.png
-  artifactKey: Guid(6ab28d3b61bdbbe43b8d2d25aeaef4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_back.png using Guid(6ab28d3b61bdbbe43b8d2d25aeaef4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38a896e7a45e7a64c89191041da0ce2a') in 0.0212825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap.cubemap
-  artifactKey: Guid(a068c526daeca0c4ea9bdbec9a251bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap.cubemap using Guid(a068c526daeca0c4ea9bdbec9a251bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fb071b5fae6668494bdb6ed8aa1b6b3') in 0.2809126 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_down.png
-  artifactKey: Guid(7882ac1dcab7a194ebe99d7d338c053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_down.png using Guid(7882ac1dcab7a194ebe99d7d338c053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb7e866767132b5ad1a8c8dd7c946526') in 0.0114659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_right.png
-  artifactKey: Guid(dead6ae1c3ae9ac44b05f135de3d58cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_right.png using Guid(dead6ae1c3ae9ac44b05f135de3d58cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45b6e18da86706fd4f0b7d2f4caf5a36') in 0.0215107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_front.png
-  artifactKey: Guid(bfbb5e11b6214524e9917d9177cecd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_front.png using Guid(bfbb5e11b6214524e9917d9177cecd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae7d122100a7c4100e4d61c123fee21d') in 0.0254044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_right.png
-  artifactKey: Guid(44fb23d418a29cd4a945ee25157aeb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_right.png using Guid(44fb23d418a29cd4a945ee25157aeb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84ac3a717188187b6de0f14e52be6665') in 0.0255991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_front.png
-  artifactKey: Guid(3af64c6c8b148e742a850fa606a286b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_front.png using Guid(3af64c6c8b148e742a850fa606a286b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a13de3ad9430aacd75374e6d5ef5b0e') in 0.0254049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_front.png
-  artifactKey: Guid(4681e222d05fd4347b8525f407bb62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_front.png using Guid(4681e222d05fd4347b8525f407bb62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76a6966173f2784b78ca5b89377b3c57') in 0.0252639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_front.png
-  artifactKey: Guid(6d8406ccba0700c4886ae844afb80f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_front.png using Guid(6d8406ccba0700c4886ae844afb80f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '451108fba9c8894d5d0e6fab6f84206c') in 0.0250416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_left.png
-  artifactKey: Guid(5f814ef635d916d42a927ac22171b567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_left.png using Guid(5f814ef635d916d42a927ac22171b567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28457b156ede3c567c9fe52a2c101b99') in 0.0278314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_left.png
-  artifactKey: Guid(e10543b194b4ea54fabde2e5472ba8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_left.png using Guid(e10543b194b4ea54fabde2e5472ba8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75fc48032556a625727e4173f9ce9032') in 0.0237889 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_right.png
-  artifactKey: Guid(3801b17911f2cb043908d148f751116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_right.png using Guid(3801b17911f2cb043908d148f751116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c00018607e9b1aaa9ab032f1e013d01') in 0.0232235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_front.png
-  artifactKey: Guid(1f486f5feb0d1534197eb4ff4b9bc5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_front.png using Guid(1f486f5feb0d1534197eb4ff4b9bc5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13f54078ddfc60aca8febd7a09df86e3') in 0.0242389 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap.cubemap
-  artifactKey: Guid(da75575e77bc9304683635a65523ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap.cubemap using Guid(da75575e77bc9304683635a65523ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8fdb56d3a40f8de2cf1cfa466704560') in 0.2819005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_left.png
-  artifactKey: Guid(c9a386eb63853164db9186b026d55a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_left.png using Guid(c9a386eb63853164db9186b026d55a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bba2cdbce1b99026fe3253e34c725680') in 0.0270062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_up.png
-  artifactKey: Guid(4ac4900bf972e5143b74b72ef3ae47ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_up.png using Guid(4ac4900bf972e5143b74b72ef3ae47ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67dbf2b3b3b6624e46a60f8cd2e997a4') in 0.0316355 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.943301 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01.png
-  artifactKey: Guid(1331a26d2843a1148a23d5ddc81629dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01.png using Guid(1331a26d2843a1148a23d5ddc81629dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '401f5f79b6a45fe7923f5225836b31e1') in 0.0266272 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat
-  artifactKey: Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat using Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84a992f812b5c08b3b04aa8706aef79e') in 0.0543276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.png
-  artifactKey: Guid(6b057cc84b9df8440b171f96ff306279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.png using Guid(6b057cc84b9df8440b171f96ff306279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fc826ba274501ffad685f51aaed017d') in 0.03233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.mat
-  artifactKey: Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.mat using Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24c49d1c18fa933d99bc1465e39224b5') in 0.0308291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat
-  artifactKey: Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat using Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25ef91ae659d5b33b060897e561455b1') in 0.0260269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat
-  artifactKey: Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat using Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '002495dfbc2f5596547ae59bffb90b21') in 0.0227879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.mat
-  artifactKey: Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.mat using Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f0b838557dc0431decaff7364b4797') in 0.0230741 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.png
-  artifactKey: Guid(33762238fbd938c4c97707195d7e97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.png using Guid(33762238fbd938c4c97707195d7e97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0487a4e8d36d6636b855e695e3e91e96') in 0.0228463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.png
-  artifactKey: Guid(599e20092e3297247ad7ecc4ba9caf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.png using Guid(599e20092e3297247ad7ecc4ba9caf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcf6b4997d75422b079b3e5a4e4767c1') in 0.0262934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png
-  artifactKey: Guid(6b1d9786203d21246bc448213b0f9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png using Guid(6b1d9786203d21246bc448213b0f9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16908b4bc74fae49839735b1100f919b') in 0.0268256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat
-  artifactKey: Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat using Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da3f552129e6c270a35a0aab0550707b') in 0.0268917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.png
-  artifactKey: Guid(88c467166db994146961f1ecc5fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.png using Guid(88c467166db994146961f1ecc5fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0e46b04db9f74e944b448b6becfd481') in 0.029526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat
-  artifactKey: Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat using Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d82b2482f5651bf3507339cf7e1b636') in 0.030365 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png
-  artifactKey: Guid(0e981c5218a661d479182696be5f084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png using Guid(0e981c5218a661d479182696be5f084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e341d25fc9566c2bd61d84302a21fdb5') in 0.029756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.png
-  artifactKey: Guid(ac8a32e5107b67a47939926c52798a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.png using Guid(ac8a32e5107b67a47939926c52798a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2435be72dcdcfc68359a46f8109f8df2') in 0.0269003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat
-  artifactKey: Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat using Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aa07a8897794fc917f32633b3049581') in 0.0285228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat
-  artifactKey: Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat using Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc5ff9a7384887ae98c8fd9a317977ce') in 0.0264455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png
-  artifactKey: Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png using Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3c31dad48e7ffa5883c541e0c47475c') in 0.0302274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.689529 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Sunless_Cubemap.mat
-  artifactKey: Guid(4daf60de510e93a4b82c4717c0cb4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Sunless_Cubemap.mat using Guid(4daf60de510e93a4b82c4717c0cb4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2498f4a60d97d6121989629af4a033ec') in 0.0409467 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunrise_Cubemap.mat
-  artifactKey: Guid(f3b3f6a697514944da8524250aa64277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunrise_Cubemap.mat using Guid(f3b3f6a697514944da8524250aa64277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fd5f4b141493fb2974270470c2f4c35') in 0.0313843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Snowy_Cubemap.mat
-  artifactKey: Guid(87567e7d36a377546a61db55aebf554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Snowy_Cubemap.mat using Guid(87567e7d36a377546a61db55aebf554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc5ed60f327ff5c988b734d630588095') in 0.0309316 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat
-  artifactKey: Guid(737024f24a4498b4ea58a67c1667a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat using Guid(737024f24a4498b4ea58a67c1667a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbfc3d93bae14f836e67d205a3776749') in 0.0292599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.178815 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Sunless_Cubemap.mat
-  artifactKey: Guid(0cd0203ab60f88f4db947a87b4f57cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Sunless_Cubemap.mat using Guid(0cd0203ab60f88f4db947a87b4f57cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d344fc6bcd3ad4fb3dd3f3b61bd934c') in 0.0265748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat
-  artifactKey: Guid(cd1b8774e71770546bec980a3d98344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat using Guid(cd1b8774e71770546bec980a3d98344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c2ba7a0e7df5ff5a1510045edfee9b8') in 0.0271832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Snowy_Cubemap.mat
-  artifactKey: Guid(b1026180dc7c2da46ae84254ddc371da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Snowy_Cubemap.mat using Guid(b1026180dc7c2da46ae84254ddc371da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6c6c20f1cd22bae746d8a9e12a2e110') in 0.0268986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Rainy_Cubemap.mat
-  artifactKey: Guid(be04847ecd3774d468b7a7fffb971b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Rainy_Cubemap.mat using Guid(be04847ecd3774d468b7a7fffb971b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bfd5c89c82a4e0d42fb3df8d1ace503') in 0.0305543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  6.227 seconds
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.953 seconds
-Domain Reload Profiling: 7176ms
-	BeginReloadAssembly (257ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (48ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (58ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (5851ms)
-		LoadAssemblies (5797ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (178ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (954ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (618ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (493ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3146 unused Assets / (1.0 MB). Loaded Objects now: 3759.
-Memory consumption went from 117.0 MB to 116.0 MB.
-Total: 9.411200 ms (FindLiveObjects: 0.816400 ms CreateObjectMapping: 0.498900 ms MarkObjects: 6.001200 ms  DeleteObjects: 2.093100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  7.052 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.984 seconds
-Domain Reload Profiling: 8033ms
-	BeginReloadAssembly (505ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (139ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (22ms)
 	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (6401ms)
-		LoadAssemblies (6403ms)
+	LoadAllAssembliesAndSetupDomain (587ms)
+		LoadAssemblies (494ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (206ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (985ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (198ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (945ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (638ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (500ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3146 unused Assets / (0.5 MB). Loaded Objects now: 3759.
-Memory consumption went from 118.9 MB to 118.4 MB.
-Total: 9.536200 ms (FindLiveObjects: 0.512800 ms CreateObjectMapping: 0.890900 ms MarkObjects: 6.701500 ms  DeleteObjects: 1.429300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.894 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.880 seconds
-Domain Reload Profiling: 1770ms
-	BeginReloadAssembly (269ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (506ms)
-		LoadAssemblies (467ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (175ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (881ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (568ms)
+		SetupLoadedEditorAssemblies (628ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (445ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3146 unused Assets / (0.9 MB). Loaded Objects now: 3759.
-Memory consumption went from 120.8 MB to 120.0 MB.
-Total: 8.965500 ms (FindLiveObjects: 0.527900 ms CreateObjectMapping: 0.848300 ms MarkObjects: 6.238200 ms  DeleteObjects: 1.349100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3142 unused Assets / (0.7 MB). Loaded Objects now: 3760.
-Memory consumption went from 121.0 MB to 120.3 MB.
-Total: 11.090500 ms (FindLiveObjects: 0.671100 ms CreateObjectMapping: 0.998500 ms MarkObjects: 8.046700 ms  DeleteObjects: 1.372200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  5.073 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.770 seconds
-Domain Reload Profiling: 5839ms
-	BeginReloadAssembly (275ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (4679ms)
-		LoadAssemblies (4667ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (152ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (771ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (413ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3147 unused Assets / (0.8 MB). Loaded Objects now: 3760.
-Memory consumption went from 122.8 MB to 122.0 MB.
-Total: 6.396600 ms (FindLiveObjects: 0.441600 ms CreateObjectMapping: 0.197400 ms MarkObjects: 4.705100 ms  DeleteObjects: 1.051000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3143 unused Assets / (0.9 MB). Loaded Objects now: 3761.
-Memory consumption went from 123.0 MB to 122.1 MB.
-Total: 9.683800 ms (FindLiveObjects: 0.498100 ms CreateObjectMapping: 0.511400 ms MarkObjects: 6.621900 ms  DeleteObjects: 2.050900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  6.740 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.036 seconds
-Domain Reload Profiling: 7775ms
-	BeginReloadAssembly (294ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (6321ms)
-		LoadAssemblies (6219ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (247ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1037ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (671ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (526ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3148 unused Assets / (0.8 MB). Loaded Objects now: 3761.
-Memory consumption went from 124.7 MB to 123.9 MB.
-Total: 8.703200 ms (FindLiveObjects: 0.677800 ms CreateObjectMapping: 0.905100 ms MarkObjects: 5.620500 ms  DeleteObjects: 1.497600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3143 unused Assets / (0.8 MB). Loaded Objects now: 3761.
-Memory consumption went from 124.9 MB to 124.1 MB.
-Total: 8.603100 ms (FindLiveObjects: 0.568200 ms CreateObjectMapping: 0.744500 ms MarkObjects: 5.809200 ms  DeleteObjects: 1.479400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.901 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.861 seconds
-Domain Reload Profiling: 1758ms
-	BeginReloadAssembly (276ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (502ms)
-		LoadAssemblies (481ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (163ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (862ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (569ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (468ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3148 unused Assets / (0.8 MB). Loaded Objects now: 3761.
-Memory consumption went from 126.6 MB to 125.8 MB.
-Total: 8.397500 ms (FindLiveObjects: 0.546000 ms CreateObjectMapping: 0.535100 ms MarkObjects: 5.980700 ms  DeleteObjects: 1.334100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  5.925 seconds
-Refreshing native plugins compatible for Editor in 34.25 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.750 seconds
-Domain Reload Profiling: 6671ms
-	BeginReloadAssembly (423ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (113ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (5368ms)
-		LoadAssemblies (4585ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (976ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (958ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (751ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (494ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (396ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3148 unused Assets / (0.8 MB). Loaded Objects now: 3761.
-Memory consumption went from 128.6 MB to 127.8 MB.
-Total: 8.150500 ms (FindLiveObjects: 0.593100 ms CreateObjectMapping: 0.422800 ms MarkObjects: 6.167700 ms  DeleteObjects: 0.964900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 14928.052433 seconds.
-  path: Assets/materials/visor.mat
-  artifactKey: Guid(48c33ee46142f5f409f41ec2656455fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/visor.mat using Guid(48c33ee46142f5f409f41ec2656455fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '237b07e90f653295ace1db705cf7c8a4') in 0.2519887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  9.253 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.148 seconds
-Domain Reload Profiling: 10390ms
-	BeginReloadAssembly (2046ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (39ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (838ms)
-	RebuildCommonClasses (112ms)
-	RebuildNativeTypeToScriptingClass (42ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (6958ms)
-		LoadAssemblies (7293ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (333ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (128ms)
-			BuildScriptInfoCaches (165ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1148ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (755ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (595ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3281 unused Assets / (4.7 MB). Loaded Objects now: 3855.
-Memory consumption went from 142.3 MB to 137.6 MB.
-Total: 14.244900 ms (FindLiveObjects: 0.612200 ms CreateObjectMapping: 0.813100 ms MarkObjects: 6.248300 ms  DeleteObjects: 6.569100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\539155\runandgun\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.882 seconds
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.290 seconds
-Domain Reload Profiling: 3169ms
-	BeginReloadAssembly (998ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (749ms)
-		LoadAssemblies (611ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (307ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (281ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1291ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (873ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (688ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3307 unused Assets / (8.2 MB). Loaded Objects now: 3865.
-Memory consumption went from 150.6 MB to 142.5 MB.
-Total: 20.943600 ms (FindLiveObjects: 0.613100 ms CreateObjectMapping: 0.909200 ms MarkObjects: 10.913600 ms  DeleteObjects: 8.505000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 565.808219 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png
-  artifactKey: Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png using Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f708ac417a63c4c26468670f385c1ef7') in 0.2059774 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3265 unused Assets / (3.5 MB). Loaded Objects now: 3867.
+Memory consumption went from 207.0 MB to 203.5 MB.
+Total: 13.615600 ms (FindLiveObjects: 0.710300 ms CreateObjectMapping: 0.869200 ms MarkObjects: 7.708100 ms  DeleteObjects: 4.324800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Normal.png
-  artifactKey: Guid(69e10fcec9984ba4f839a5693383c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Normal.png using Guid(69e10fcec9984ba4f839a5693383c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c1de6fd504d18e5775d90c6afda57c8') in 0.0806199 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 875692.676434 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Prefabs/IceLance.prefab
+  artifactKey: Guid(1a1c02facd51d87458dcaa3a761e2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Prefabs/IceLance.prefab using Guid(1a1c02facd51d87458dcaa3a761e2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff61b96e9399fa7fad695470d58b2e34') in 0.6383909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/TerrainDirt.terrainlayer
-  artifactKey: Guid(d62e27a62f70e074eba77bbd9259e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Scenes/TerrainDirt.terrainlayer using Guid(d62e27a62f70e074eba77bbd9259e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9a48208fcecd2afc54c375c2f6be329') in 0.0590681 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer
-  artifactKey: Guid(adb6478a7f24de14eb356d6dc3d0c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer using Guid(adb6478a7f24de14eb356d6dc3d0c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1fab631ee6310783681cdbb2c553d37') in 0.0417121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png
-  artifactKey: Guid(5e1acf362611957488060eee4178b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png using Guid(5e1acf362611957488060eee4178b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73c4f0801fc3fd38c78c1f5bb8abf9bc') in 0.0253296 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Rock_Diffuse.png
-  artifactKey: Guid(5749f76eaefd4464d864cb20ae8451aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Rock_Diffuse.png using Guid(5749f76eaefd4464d864cb20ae8451aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3af37c3cafb783f9d75599c7b9fda7bf') in 0.0538002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png
-  artifactKey: Guid(758b1fc63752a1e44957111d5af9b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png using Guid(758b1fc63752a1e44957111d5af9b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89271ab70673c05726cdf913339b9ecf') in 0.0285992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.674669 seconds.
-  path: Assets/models/Sig P365 XL.fbx
-  artifactKey: Guid(654549cc3f62f9e4996c4c269df2c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/Sig P365 XL.fbx using Guid(654549cc3f62f9e4996c4c269df2c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c52e19a57d3b061a330ae4e4ec0d4ed') in 0.2979262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.463571 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/Dust.mat
-  artifactKey: Guid(53a63d52a4c231f4c8ef0f2bfc170425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/Dust.mat using Guid(53a63d52a4c231f4c8ef0f2bfc170425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c19724e60636f4b213d0ba23cbc83476') in 5.3951431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/TinyFlame.mat
-  artifactKey: Guid(2a24b896dbe48144ab8d4a90468ad00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/TinyFlame.mat using Guid(2a24b896dbe48144ab8d4a90468ad00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48238ee159cd94c2118dc1f93dea8ca3') in 0.3779219 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/MediumFlames.prefab
-  artifactKey: Guid(be6847dd39ab95f4daa2ed98e4f90564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/MediumFlames.prefab using Guid(be6847dd39ab95f4daa2ed98e4f90564) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1784163289eb5aaea57a4710303b20b') in 0.0595444 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/Railing.prefab
+  artifactKey: Guid(e06ec3bfe7bdb824ba30d9b927c012f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/Railing.prefab using Guid(e06ec3bfe7bdb824ba30d9b927c012f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62638ffac931d77dd708f6ef16d91070') in 0.0518898 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/ExplosionDistortion.mat
-  artifactKey: Guid(fafa06e8ef8c7fb4eac7a74c65cf3a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/ExplosionDistortion.mat using Guid(fafa06e8ef8c7fb4eac7a74c65cf3a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '458bc0c4bb763e9a633dba137bf44741') in 0.1689458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/ParticlesLight.prefab
-  artifactKey: Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/ParticlesLight.prefab using Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee547c0f7fe1484eecf12890ad918024') in 0.0028926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/TinyFlames.prefab
-  artifactKey: Guid(ea4fb55d0227e604386f44f905cfe7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/TinyFlames.prefab using Guid(ea4fb55d0227e604386f44f905cfe7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9731cae4c7f6bbff8cf22ee572b17efb') in 0.0318688 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame01.mat
-  artifactKey: Guid(5584a46a2a298d348a252b58b4847ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame01.mat using Guid(5584a46a2a298d348a252b58b4847ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e230348bb1572649410e780888688df') in 0.0339752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/BigExplosion.prefab
-  artifactKey: Guid(e1b08032bec16ba4eb1ae23cbd572664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/BigExplosion.prefab using Guid(e1b08032bec16ba4eb1ae23cbd572664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ecf60130b066c67fdf8cb2f1dbed72') in 2.5848672 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame03.mat
-  artifactKey: Guid(6b187db0c2e012840b1199ccf0893b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame03.mat using Guid(6b187db0c2e012840b1199ccf0893b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dc0074aa972da1d80678e46e8a03e13') in 0.0295489 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/LargeFlames.prefab
-  artifactKey: Guid(bb98861c48ad2024ca93498c7dd93a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/LargeFlames.prefab using Guid(bb98861c48ad2024ca93498c7dd93a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b23c60c91058ba61097289a8ed3958d') in 0.2707434 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/PlasmaFire.mat
-  artifactKey: Guid(b5387d3c2ba98fc44a0f5744f94ce48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/PlasmaFire.mat using Guid(b5387d3c2ba98fc44a0f5744f94ce48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30285e9f9b9c21cf19a1809115c51f85') in 0.0580799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/fireball.mat
-  artifactKey: Guid(3349fc02d104e2b458470ec533f51c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/fireball.mat using Guid(3349fc02d104e2b458470ec533f51c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d44809c21cfad2a6c626918e9deb310') in 0.0464592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/Flame02.mat
-  artifactKey: Guid(bd8c234372a08af408b82538314378fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/Flame02.mat using Guid(bd8c234372a08af408b82538314378fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7edf1aa06ceae715f5a7539fd4f60a4') in 0.0343187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/Flame04.mat
-  artifactKey: Guid(7a812f56d512d964ea8de8fe839e1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/Flame04.mat using Guid(7a812f56d512d964ea8de8fe839e1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '711fae432b436f8e6a50d73453ea6c9f') in 0.0366327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs
-  artifactKey: Guid(af557a47dae08a94cb2839384fe7ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs using Guid(af557a47dae08a94cb2839384fe7ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f8fd3aa2df5178117f3919b6681ba44') in 0.0009006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/PlasmaExplosionEffect.prefab
-  artifactKey: Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/PlasmaExplosionEffect.prefab using Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11ea0134afd227501aae2ed1f03efe5') in 0.3839636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/EnergyExplosion.prefab
-  artifactKey: Guid(9bba9cf244c53c5439505dfc96fdd11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/EnergyExplosion.prefab using Guid(9bba9cf244c53c5439505dfc96fdd11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca66e5f0fcb68d8d9016e6ee9a6c6655') in 0.1689204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/Lightning.mat
-  artifactKey: Guid(0b1b6a2d22d96564f9037ae143ea84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/Lightning.mat using Guid(0b1b6a2d22d96564f9037ae143ea84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7fc3bed07a3d9292d4e0847624c4edc') in 0.0257053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame02.mat
-  artifactKey: Guid(b25dd701bdc692249907c8b4e4b784b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame02.mat using Guid(b25dd701bdc692249907c8b4e4b784b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f36558f4bfd0b934ae00931e1177e66') in 0.0425444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/FireExplosion.mat
-  artifactKey: Guid(7a306caa8f9f7ed40a5361ce411cdf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/FireExplosion.mat using Guid(7a306caa8f9f7ed40a5361ce411cdf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5df1a8c181a728e78926437082364832') in 0.0357002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/SmallExplosion.prefab
-  artifactKey: Guid(64891a0eb28db934898420d80ca07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/SmallExplosion.prefab using Guid(64891a0eb28db934898420d80ca07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa290db7ed57a1581260056131239e35') in 0.3105349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/EnergyExplosion.mat
-  artifactKey: Guid(bf88af72084132746823869f28b070f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/EnergyExplosion.mat using Guid(bf88af72084132746823869f28b070f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90a5feb907712171a4ea2be778b93e03') in 0.1774799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/PlasmaExplosion.mat
-  artifactKey: Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/PlasmaExplosion.mat using Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92d5e916ecf31e0dd906d9edcaaa0ab7') in 0.1189865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FireBall.prefab
-  artifactKey: Guid(a990e3ac1318b834488c784d851f42a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FireBall.prefab using Guid(a990e3ac1318b834488c784d851f42a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '165134e7d2238a99362a666dde638bcc') in 0.070558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame01.mat
-  artifactKey: Guid(af29e4d6b5ada10438f9e9b5bb6d19d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame01.mat using Guid(af29e4d6b5ada10438f9e9b5bb6d19d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c48473447f048064c508eb9cba83b36') in 0.1283665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/SandParticle.mat
-  artifactKey: Guid(4ea8613283885aa45a5c6eb29a50bdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/SandParticle.mat using Guid(4ea8613283885aa45a5c6eb29a50bdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0900772cd0df4e1553b28b2a0bab341') in 8.5010501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 351.104214 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalSand.mat
-  artifactKey: Guid(0a35d64bb8fd24f47b8bf3802f71313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalSand.mat using Guid(0a35d64bb8fd24f47b8bf3802f71313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ffcb54d7a9c7ec32030b17ae01254bf') in 5.4610903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/CandleFlame.mat
-  artifactKey: Guid(d960d897cdc819041a73dceb80befb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/CandleFlame.mat using Guid(d960d897cdc819041a73dceb80befb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '747d0e38f5bdd32c7112bf8c9de96e3f') in 0.276621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat
-  artifactKey: Guid(a6492a173e6c03f48899880b96cca600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat using Guid(a6492a173e6c03f48899880b96cca600) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe3ab81a3106187ea04f56a62eb5d8a3') in 0.3572058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Materials/Embers.mat
-  artifactKey: Guid(cb54088e4fe82ce44aafb5f3dc12b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Materials/Embers.mat using Guid(cb54088e4fe82ce44aafb5f3dc12b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52ee858759de2cf5ae49c4691c1701a3') in 0.0112671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/DissolveChunks.mat
-  artifactKey: Guid(3544992394a7b954789108f2fa57027e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/DissolveChunks.mat using Guid(3544992394a7b954789108f2fa57027e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c300b56f2f319c015e99e70d3a85ee') in 2.3927269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat
-  artifactKey: Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat using Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ca79c1ec7049ada26f4444b034727a0') in 0.0443678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/Dissolve.mat
-  artifactKey: Guid(8385f0e712bb65b428cf18e6ab1c29c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/Dissolve.mat using Guid(8385f0e712bb65b428cf18e6ab1c29c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '097fbee996bdd6bf265aae80ba670c30') in 0.5529517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat
-  artifactKey: Guid(1402721190994cd46b64bf7cba78f5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat using Guid(1402721190994cd46b64bf7cba78f5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a0d02b1c50d5a4d2e39d41c258e45de') in 4.4923678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 579.120359 seconds.
-  path: Assets/prefabs/Grenade.prefab
-  artifactKey: Guid(21d94a5acdcc3584a9f3b78476c99e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Grenade.prefab using Guid(21d94a5acdcc3584a9f3b78476c99e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dc485bfb5eddb4eba0b457ba8fab720') in 0.1474432 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.638919 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/AreaLine.fbx
-  artifactKey: Guid(534f375dff9795c4baa527015ef28ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/AreaLine.fbx using Guid(534f375dff9795c4baa527015ef28ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31b7c3834ae5107c8d1bb34e90208021') in 0.5619028 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/EndWall.prefab
-  artifactKey: Guid(a53fe34087284794dbe0aad895670634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/EndWall.prefab using Guid(a53fe34087284794dbe0aad895670634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a96eb03f64b63ffc760d6e4692debf9') in 0.2979876 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/EndWall.fbx
-  artifactKey: Guid(18f35b9d268a5e2418ed0f7628c2d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/EndWall.fbx using Guid(18f35b9d268a5e2418ed0f7628c2d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c95dd042a069294bbacafadd2a0a51e') in 0.0524143 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopStreamEffect.prefab
+  artifactKey: Guid(a3768c8a9d1b90d4bb0eb0e4bdbe730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopStreamEffect.prefab using Guid(a3768c8a9d1b90d4bb0eb0e4bdbe730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '211ed29c63291bf568bf8aab724cb6a0') in 2.3088947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Prefabs/BigSplash.prefab
-  artifactKey: Guid(c1c88308ebb5d2541a282905b854ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Prefabs/BigSplash.prefab using Guid(c1c88308ebb5d2541a282905b854ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b5c7e52e1c739349918e434657c8500') in 0.1388299 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Models/IceShard.FBX
+  artifactKey: Guid(a7ca52bcb825d7044a8afdfd569507c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Models/IceShard.FBX using Guid(a7ca52bcb825d7044a8afdfd569507c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd185db941e2951b00fcf5e3ccb6b75d5') in 0.0713828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopSpray.prefab
+  artifactKey: Guid(5656e7ea1f1a75d4c895547ec2b824b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopSpray.prefab using Guid(5656e7ea1f1a75d4c895547ec2b824b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87d23f4497e5e1ec49895955e996ae9f') in 0.0565243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Prefabs/Player.prefab
+  artifactKey: Guid(6fcc382533eeddd4cb59b9e20acca545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Prefabs/Player.prefab using Guid(6fcc382533eeddd4cb59b9e20acca545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dc5fbfb75c177b729c0a88ba1ef0576') in 0.9613499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/LongOverhangWall.fbx
+  artifactKey: Guid(8e725cb41275efd4b90ded8d12a97e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/LongOverhangWall.fbx using Guid(8e725cb41275efd4b90ded8d12a97e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f12a51c3d72e13730165417624784d1e') in 0.1001942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/FloorShort.fbx
+  artifactKey: Guid(10c6e964dc4450b43b3e447521e02e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/FloorShort.fbx using Guid(10c6e964dc4450b43b3e447521e02e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c7e85fc8e6bb89046282a095479115f') in 0.058656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/DustExplosion.prefab
+  artifactKey: Guid(d8f0099df63275647a8bcf646df1ca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/DustExplosion.prefab using Guid(d8f0099df63275647a8bcf646df1ca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4ff11137a7c7fd81904d46fb72b001e') in 0.0906573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopSprayEffect.prefab
+  artifactKey: Guid(abb9f519b142e304d9c45b56afa768bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopSprayEffect.prefab using Guid(abb9f519b142e304d9c45b56afa768bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '585fb0599cae3de05d985f8f348838e3') in 0.0266369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/FloorMiddle.fbx
+  artifactKey: Guid(feea4d173b1eac64087516ae6fde538a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/FloorMiddle.fbx using Guid(feea4d173b1eac64087516ae6fde538a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54949baa73d38f1c4359b49b139db361') in 0.0387267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/Railing.fbx
+  artifactKey: Guid(109fce1e867015f4ab66f27e2e5e0c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/Railing.fbx using Guid(109fce1e867015f4ab66f27e2e5e0c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56d11f0dfdfaf11d0b934e7bad794de9') in 0.0291023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/ParticlesLight.prefab
+  artifactKey: Guid(61a6b3a108030e54ba372fe7097916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/ParticlesLight.prefab using Guid(61a6b3a108030e54ba372fe7097916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6af93dfa0777fe01536d0504d3fcea6') in 0.0028196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/CornerWall.prefab
-  artifactKey: Guid(21617474d5ac06548b6020406dbe6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/CornerWall.prefab using Guid(21617474d5ac06548b6020406dbe6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56e28db7b8c014dbfc3147ef9efcc134') in 0.3681767 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/FloorTiny.fbx
+  artifactKey: Guid(9446cfbf8049f8840a94568ebfd2ea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/FloorTiny.fbx using Guid(9446cfbf8049f8840a94568ebfd2ea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d09465fdc9038bcac3e229dc510af3a') in 0.0358524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/PoisonGas.prefab
+  artifactKey: Guid(6f672a31584a6a748912a49c1dce2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/PoisonGas.prefab using Guid(6f672a31584a6a748912a49c1dce2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '885d24b396e61581b552b643e89f6552') in 4.5905631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.037486 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/RisingSteam.prefab
+  artifactKey: Guid(efe021d4c307b5449b8121d46791cf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/RisingSteam.prefab using Guid(efe021d4c307b5449b8121d46791cf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c2f5ab1b2ed6a9bc7d0e86b9cc703ad') in 0.2473705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/Dissolve.prefab
-  artifactKey: Guid(df3177fc67fceda4cb1e5acda4964f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/Dissolve.prefab using Guid(df3177fc67fceda4cb1e5acda4964f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01c7dc4412e0f6da6f52fd581ed47e76') in 5.167075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Models/RockDebris.FBX
+  artifactKey: Guid(88b9906b4442aa2448a9379fa0d1b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Models/RockDebris.FBX using Guid(88b9906b4442aa2448a9379fa0d1b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99dd68c1b627f8104446f96cb6e6125e') in 0.1174883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1021.547057 seconds.
-  path: Assets/prefabs/Grenade.prefab
-  artifactKey: Guid(21d94a5acdcc3584a9f3b78476c99e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Grenade.prefab using Guid(21d94a5acdcc3584a9f3b78476c99e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '653939bf72d65860493c84a09ee89bf3') in 0.1551164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Models/RockDebris.FBX
+  artifactKey: Guid(ec280bbfbd0550743b1e477c9d48abdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Models/RockDebris.FBX using Guid(ec280bbfbd0550743b1e477c9d48abdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55bb520c3f82be0d115c19c80bc4c051') in 2.20751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
