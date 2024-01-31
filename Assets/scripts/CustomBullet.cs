@@ -44,6 +44,7 @@ public class CustomBullet : MonoBehaviour
         foreach(Collider Enemy in enemies)
         {
                Enemy.GetComponent<EnemyAi>().TakeDamage(Damage);
+               Destroy(gameObject);
         }
 
      Invoke("Delay", 0.05f);
@@ -54,7 +55,7 @@ public class CustomBullet : MonoBehaviour
     Destroy(gameObject);
    }
 
-   private void OnCollsionEnter(Collision collision)
+   private void OnCollisionEnter(Collision collision)
    {
         if(collision.collider.CompareTag("Bullet"))return;
 
@@ -62,7 +63,7 @@ public class CustomBullet : MonoBehaviour
 
         if(collision.collider.CompareTag("Enemy") && explodeOnTouch) Explode();
 
-        Debug.Log(collision);
+        
 
 
    }

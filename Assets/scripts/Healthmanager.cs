@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Healthmanager : MonoBehaviour
@@ -18,14 +19,14 @@ public class Healthmanager : MonoBehaviour
     {
         if (healthAmount <= 0)
         {
-            Application.LoadLevel(Application.loadedLevel);
+            SceneManager.LoadScene(0);
 
         }
     }
 
-    public void TakeDamage(float Damage)
+    public void TakeDamage2(float EnemyDamage)
     {
-        healthAmount -= Damage;
+        healthAmount -= EnemyDamage;
         healthBar.fillAmount = healthAmount / 100f;
     }
 
@@ -36,4 +37,6 @@ public class Healthmanager : MonoBehaviour
 
         healthBar.fillAmount = healthAmount / 100f;
     }
+
+ 
 }
