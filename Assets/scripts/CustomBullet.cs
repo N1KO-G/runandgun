@@ -37,7 +37,7 @@ public class CustomBullet : MonoBehaviour
 
    private void Explode()
    {
-        if(explosion != null) Instantiate(explosion, transform.position, Quaternion.identity);
+        if(explosion != null)  Instantiate(explosion, transform.position, Quaternion.identity);
 
         Collider[] enemies = Physics.OverlapSphere(transform.position, explosionRange, whatIsEnemies);
         
@@ -53,7 +53,8 @@ public class CustomBullet : MonoBehaviour
    private void Delay()
    {
     Destroy(gameObject);
-   }
+    Destroy(explosion);
+    }
 
    private void OnCollisionEnter(Collision collision)
    {

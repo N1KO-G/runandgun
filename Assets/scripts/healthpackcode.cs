@@ -17,6 +17,7 @@ public class healthpackcode : MonoBehaviour
         {
             other.gameObject.GetComponent<Healthmanager>().Heal(healing);
             Destroy(gameObject);
+            
         }
         
 

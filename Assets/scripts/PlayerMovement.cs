@@ -76,6 +76,7 @@ public class PlayerMovement : MonoBehaviour {
         y = Input.GetAxisRaw("Vertical");
         jumping = Input.GetButton("Jump");
         crouching = Input.GetKey(KeyCode.LeftControl);
+        
       
         //Crouching
         if (Input.GetKeyDown(KeyCode.LeftControl))
@@ -286,4 +287,7 @@ public class PlayerMovement : MonoBehaviour {
             desiredMoveSpeed = wallrunSpeed;
         }
     }
+
+
+
 }
