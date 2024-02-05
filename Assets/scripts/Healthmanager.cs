@@ -31,9 +31,14 @@ public class Healthmanager : MonoBehaviour
     }
 
     public void Heal(float healingAmount)
-    {
-        healthAmount += healingAmount;
+    {   
+        if (healthAmount <= 100)
+        {
+            healthAmount += healingAmount;
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
+
+        }
+       
 
         healthBar.fillAmount = healthAmount / 100f;
     }
