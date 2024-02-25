@@ -9,13 +9,12 @@ public class healthpackcode : MonoBehaviour
 
     public float healing;
 
-    float healthAmount;
+
    
    private void OnTriggerEnter(Collider other)
    {
-        if(other.gameObject.CompareTag("Player") && healthAmount < 100)
+        if(other.gameObject.CompareTag("Player"))
         {
-        
             other.gameObject.GetComponent<Healthmanager>().Heal(healing);
             Destroy(gameObject);
             
