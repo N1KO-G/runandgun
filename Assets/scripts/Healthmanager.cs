@@ -24,15 +24,25 @@ public class Healthmanager : MonoBehaviour
         }
     }
 
-    public void TakeDamage2(float EnemyDamage)
+    public void TakeDamage2(float EnemyDamage)                              
     {
         healthAmount -= EnemyDamage;
         healthBar.fillAmount = healthAmount / 100f;
     }
 
     public void Heal(float healingAmount)
+<<<<<<< Updated upstream
     {   
         if (healthAmount <= 100)
+=======
+<<<<<<< HEAD
+    {
+        if (healthAmount < 100)
+=======
+    {   
+        if (healthAmount <= 100)
+>>>>>>> aab25c63d73a916e776a139bd53a23f73c71ab35
+>>>>>>> Stashed changes
         {
             healthAmount += healingAmount;
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
@@ -41,6 +51,8 @@ public class Healthmanager : MonoBehaviour
        
 
         healthBar.fillAmount = healthAmount / 100f;
+        }
+        
     }
 
  
