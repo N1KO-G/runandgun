@@ -8,5 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testlevel.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/LevelEnd.unity
+    guid: bcabcc90a85e7e449abc62cd05ceb706
+  - enabled: 1
+    path: Assets/Scenes/Gameend.unity
+    guid: 6bfb11f2b49153f4c8e742103031b3f7
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: ffca87cb4f480194d89c26d5d982069f
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
