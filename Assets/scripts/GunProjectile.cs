@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class GunProjectile : MonoBehaviour
 {
+    AudioSource audioSource;
+    public AudioClip shoot;
    
    public GameObject bullet;
 
@@ -28,7 +30,10 @@ public class GunProjectile : MonoBehaviour
 
    public bool allowInvoke = true;
 
-
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
    private void Awake()
    {
     bulletsLeft = magazineSize;
@@ -46,6 +51,7 @@ public class GunProjectile : MonoBehaviour
    private void MyInput()
    {
     if(allowButtonHold) shooting = Input.GetKey(KeyCode.Mouse0);
+    
     else shooting = Input.GetKeyDown(KeyCode.Mouse0);
 
     if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && !reloading) Reload();

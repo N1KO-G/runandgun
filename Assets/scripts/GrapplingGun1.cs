@@ -1,7 +1,8 @@
 using UnityEngine;
 
 public class GrapplingGun : MonoBehaviour {
-
+    AudioSource audioSource;
+    public AudioClip shoot;
     private LineRenderer lr;
     private Vector3 grapplePoint;
     public LayerMask whatIsGrappleable;
@@ -9,13 +10,20 @@ public class GrapplingGun : MonoBehaviour {
     private float maxDistance = 100f;
     private SpringJoint joint;
 
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+    
     void Awake() {
         lr = GetComponent<LineRenderer>();
     }
 
     void Update() {
         if (Input.GetMouseButtonDown(1)) {
-            StartGrapple();
+            
+             audioSource.PlayOneShot(shoot, 0.7F);
+            StartGrapple();  
         }
         else if (Input.GetMouseButtonUp(1)) {
             StopGrapple();
