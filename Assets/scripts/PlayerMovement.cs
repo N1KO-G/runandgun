@@ -144,6 +144,8 @@ public class PlayerMovement : MonoBehaviour {
         //Apply forces to move player
         rb.AddForce(orientation.transform.forward * y * moveSpeed * Time.deltaTime * multiplier * multiplierV);
         rb.AddForce(orientation.transform.right * x * moveSpeed * Time.deltaTime * multiplier);
+
+        
     }
 
     private void Jump() {

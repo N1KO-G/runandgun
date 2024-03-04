@@ -101,9 +101,9 @@ public class EnemyAi : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void TakeDamage(int explosionDamage)
+    public void TakeDamage(int Damage)
     {
-        health -= explosionDamage;
+        health -= Damage;
 
         if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
     }

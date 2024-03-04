@@ -9,7 +9,10 @@ private void OnCollisionEnter(Collision collision)
    {
         if(collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
         }
 }
 

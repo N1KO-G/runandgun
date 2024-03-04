@@ -13,7 +13,7 @@ public class healthpackcode : MonoBehaviour
    
    private void OnTriggerEnter(Collider other)
    {
-        if(other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player") )
         {
             other.gameObject.GetComponent<Healthmanager>().Heal(healing);
             Destroy(gameObject);

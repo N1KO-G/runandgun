@@ -9,7 +9,9 @@ public class endlevel : MonoBehaviour
    {
         if(collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
 }
    

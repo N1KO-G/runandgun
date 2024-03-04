@@ -53,7 +53,6 @@ public class CustomBullet : MonoBehaviour
    private void Delay()
    {
     Destroy(gameObject);
-    Destroy(explosion);
     }
 
    private void OnCollisionEnter(Collision collision)
