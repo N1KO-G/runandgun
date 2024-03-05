@@ -70,6 +70,9 @@ public class GunProjectile : MonoBehaviour
 
      private void Shoot()
         {
+
+            audioSource.PlayOneShot(shoot, 0.7F);
+        
         readyToShoot = false;
 
         Ray ray = Camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
