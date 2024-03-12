@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class endlevel : MonoBehaviour
 {
+    public string scenename;
+
     private void OnCollisionEnter(Collision collision)
    {
+
         if(collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(scenename);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }

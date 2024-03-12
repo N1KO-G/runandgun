@@ -8,6 +8,8 @@ public class Healthmanager : MonoBehaviour
 {
     public Image healthBar;
     public float healthAmount = 100f;
+
+    public string scenename;
     
     void Start()
     {
@@ -19,7 +21,9 @@ public class Healthmanager : MonoBehaviour
     {
         if (healthAmount <= 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(4);
+             Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
 
         }
     }
